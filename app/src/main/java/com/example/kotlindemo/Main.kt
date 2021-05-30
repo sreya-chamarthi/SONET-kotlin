@@ -1,7 +1,9 @@
 package com.example.kotlindemo
 
 fun main(){
-    var myInt:Long=45
+    val n:Any=11
+    var str =n as? String
+    print(str)
 
-    print("Hello $myInt")
+
 }

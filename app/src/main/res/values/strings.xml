@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">KotlinDemo</string>
+    <string-array name="array_colours">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+    </string-array>
 </resources>
