@@ -23,6 +23,7 @@ class MainActivity3 : AppCompatActivity() {
                 result=result+"$i@"
             }
             txt.setText(result)
+            input_result.setText("")
         })
     }
 }
