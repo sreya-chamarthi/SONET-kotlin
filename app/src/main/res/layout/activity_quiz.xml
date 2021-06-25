@@ -23,7 +23,7 @@
             android:gravity="center"
             android:layout_margin="10dp"
             android:textSize="22sp"
-            android:padding="20dp">
+            android:padding="5dp">
         </TextView>
         <ProgressBar
             android:id="@+id/q_progressbar"
@@ -42,7 +42,7 @@
             android:gravity="center"
             android:layout_margin="10dp"
             android:textSize="22sp"
-            android:padding="20dp"
+            android:padding="5dp"
             android:background="@drawable/default_option_border_bg">
         </TextView>
     </LinearLayout>
@@ -55,11 +55,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg">
         </TextView>
         <TextView
@@ -67,11 +67,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg">
         </TextView>
         <TextView
@@ -79,11 +79,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg">
         </TextView>
         <TextView
@@ -91,11 +91,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Apple is a company"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="@color/black"
             android:gravity="center"
             android:layout_margin="10dp"
-            android:padding="15dp"
+            android:padding="10dp"
             android:background="@drawable/default_option_border_bg">
         </TextView>
     </LinearLayout>
