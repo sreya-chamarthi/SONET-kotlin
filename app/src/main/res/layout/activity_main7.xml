@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="349dp"
+        android:layout_height="355dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/board"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="106dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="4dp"
+            android:onClick="coinAppear"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="114dp"
+            android:layout_height="98dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="3dp"
+            android:onClick="coinAppear"
+            android:tag="1"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="104dp"
+            android:layout_height="97dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="0dp"
+            android:tag="2"
+            android:onClick="coinAppear"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="105dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="4dp"
+            android:tag="3"
+            android:onClick="coinAppear"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="99dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="5dp"
+            android:tag="4"
+            android:onClick="coinAppear" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="0dp"
+            android:tag="5"
+            android:onClick="coinAppear" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="106dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="4dp"
+            android:onClick="coinAppear"
+            app:layout_column="0"
+            android:tag="6"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="113dp"
+            android:layout_height="97dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="5dp"
+            android:tag="7"
+            android:onClick="coinAppear" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="98dp"
+            android:layout_height="92dp"
+            android:layout_margin="10dp"
+            android:tag="8"
+            android:layout_marginLeft="0dp"
+            android:onClick="coinAppear" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
